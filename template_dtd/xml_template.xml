@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE acte SYSTEM "dtd_template.dtd">
+
+<acte type="lettre_patente">
+   <metadatas>
+      <responsabilities>
+         <transcription>text</transcription>
+         <encoding>text</encoding>
+      </responsabilities>
+      <document>
+         <author>
+            <scribe>text</scribe>
+            <sigillant>text</sigillant>
+            <tutelage>text</tutelage>
+         </author>
+         <physicalDocument>
+            <title>text</title>
+            <seal n='1' statut="attache" material="cire">
+               <size type="mm">text</size>
+               <description type="rond"> Description du motif du sceau et si nécessaire de sa 
+                  <caption>légende comprenant des <missing/> et des transcriptions 
+                     <uncertain>incertaines</uncertain> mais également des 
+                     <abbreviation>abréviations contenant une 
+                        <edition> édition qui développe de ces dernières</edition>
+                     </abbreviation>.Dans cette légende nous trouvons le 
+                     <name>nom</name> du sigillant et probablement la description de son 
+                     <heraldry>armoirie</heraldry>
+                  </caption>
+               </description>
+            </seal>
+         </physicalDocument>
+      </document>
+      <conservation>
+         <institution>text</institution>
+         <cote>text</cote>
+      </conservation>
+   </metadatas>
+   <text>
+      <subscription>Transcription de la subscription du texte contenant le <name>nom du sigillant et des autres personnes impliquées</name>, les <place>lieux évoqués</place>ainsi qu'une ou plusieurs <date>dates</date> ainsi que des <abbreviation>text avec <edition>text</edition></abbreviation></subscription>
+      <corroboration>Transcription comprenant les mêmes informations <name>text</name>, <place>text</place>, <date>text</date></corroboration>
+   </text>
+</acte>

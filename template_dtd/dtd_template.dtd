@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT acte (metadatas?, text?)>
+    <!ATTLIST acte type (lettre_patente | confirmation | contrat) #IMPLIED>
+    <!ELEMENT metadatas (responsabilities?, document?, conservation?)>
+        <!ELEMENT responsabilities (transcription*, encoding*)>
+            <!ELEMENT transcription (#PCDATA)>
+            <!ELEMENT encoding (#PCDATA)>
+        <!ELEMENT document (author?, physicalDocument?)>
+            <!ELEMENT author (scribe+, sigillant+, tutelage+)>
+                <!ELEMENT scribe (#PCDATA)>
+                <!ELEMENT sigillant (#PCDATA)>
+                <!ELEMENT tutelage (#PCDATA)>
+            <!ELEMENT physicalDocument (title+, seal?)>
+                <!ELEMENT title (#PCDATA)>
+                <!ELEMENT seal (size*, description+)>
+                    <!ATTLIST seal n CDATA #REQUIRED>
+                    <!ATTLIST seal statut (attache | detache | disparu) #REQUIRED>
+                    <!ATTLIST seal material (cire | plomb) #IMPLIED>
+                    <!ELEMENT size (#PCDATA)>
+                        <!ATTLIST size type (mm) #REQUIRED>
+                    <!ELEMENT description (#PCDATA | caption)*>
+                        <!ATTLIST description type (rond | navette | ovale) #IMPLIED>
+                        <!ELEMENT caption (#PCDATA | missing | uncertain | abbreviation | name | heraldry)*>
+                            <!ELEMENT missing EMPTY>
+                            <!ELEMENT uncertain (#PCDATA)>
+                            <!ELEMENT abbreviation (#PCDATA | edition)*>
+                                <!ELEMENT edition (#PCDATA)>
+                            <!ELEMENT name (#PCDATA)>
+                            <!ELEMENT heraldry (#PCDATA)>
+          <!ELEMENT conservation (institution?, cote?)>
+            <!ELEMENT institution (#PCDATA)>
+            <!ELEMENT cote (#PCDATA)>
+    <!ELEMENT text (subscription?, corroboration?)>
+        <!ELEMENT subscription (#PCDATA | name | place | date | abbreviation)*>
+            <!ELEMENT place (#PCDATA)>
+            <!ELEMENT date (#PCDATA)>
+        <!ELEMENT corroboration (#PCDATA | name | place | date | abbreviation)*>
+                            
+                

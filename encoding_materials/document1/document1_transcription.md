@@ -1,0 +1,4 @@
+# Subscription 
+A tous ceulx que ces presentes lettres verront ou orront. Les eschevins de maisierres sur muese salut.
+# Corroboration
+En tesmoing de ce nous avons fait mettre n(ost)re seel a ces l(ett)res. Sonne en n(ost)re ville d’Arras le XXIe  jour de juing l’an de grace mil quatre cens et quatre. Et estoit escript sur le ploit des dictes l(ett)res, au leir ou au bout desseux. Par ma dame la duche(sse) en son conseil, R de noerlile, en tesmoing de la quelle vision et lecture nous eschevins du dit maisierres, Avons a la relacion et rapport de noz dis compamgnons eschevins dudit college, scelle ce present vidimus ou transcript. Du scel et contrescel dudit escheminage fait l’an et jour dessus dis. 

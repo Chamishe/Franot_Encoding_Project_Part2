@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Confirmation de la charte de Mézières</title>
+            <author role="sigillant">échevinage de Mézières</author>
+            <author role="scribe">Inconnu</author>
+            <respStmt>
+               <resp>Transcription et encodage par</resp><persName>Mélina Franot</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Archives départementales des Ardennes</distributor>
+            <availability status="free">
+               <p>Ce document est disponible à la consultation dans la salle de lecture des Archives départementales des Ardennes
+                  ou consultable en ligne sur la base de données SIGILLA</p>
+            </availability>
+            <idno>EDEPOT/MEZIERES/AA 2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Charleville-Mézières</settlement>
+                  <repository>Archives départementales des Ardennes</repository>
+               </msIdentifier>
+               <msContents>
+                  <summary>Vidimus d'un acte de Marguerite de Male, duchesse de Bourgogne et comtesse de Flandre par les échevins de Mézières, confirmant les privilèges accordés par les comtes de Rethel aux habitants et bourgeois de la ville de Mézières</summary>
+               </msContents>
+               <physDesc>
+                  <handDesc xml:lang="fr"><p>Ecriture manuscrite du XVème siècle</p></handDesc>
+                  <sealDesc>
+                     <seal n="1" type="pendant" contemporary="true">
+                        <p>Sceau des <name> échevins de Mézières</name>en cire médiévale brune portant un écu chargé des armoiries des comtes de Rethel (deux rateaux émmanchés)</p>
+                     </seal>
+                     <condition>Sceau globalement en mauvais état. Des fragments sont manquants notamment la majorité de la légende. Le motif central reste en état suffisant pour être identifiable</condition>
+                  </sealDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

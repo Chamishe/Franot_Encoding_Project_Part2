@@ -3,6 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
+<!DOCTYPE TEI[<!ENTITY % menota_entities SYSTEM 'menota_entities.txt'>%menota_entities;]>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
       <fileDesc>
@@ -23,6 +25,17 @@
             <idno>EDEPOT/MEZIERES/AA 2</idno>
          </publicationStmt>
          <sourceDesc>
+            <listPerson>
+               <person xml:id="mar">
+                  <persName>Marguerite III de Flandres</persName>
+                  <idno type="wikidata">Q466252</idno>
+                  <note>Duchesse de Bourgogne</note>
+                  <note>Comtesse de Flandres</note>
+               </person>
+               <person xml:id="ech">
+                  <persName>échevins de Mézières</persName>
+               </person>
+            </listPerson>
             <msDesc>
                <msIdentifier>
                   <country>France</country>
@@ -69,9 +82,12 @@
             <p>A tous ceulx que ces presentes lettres verront ou orront. Les eschevins de maisierres sur muese salut.</p>
          </div>
          <div type="corroboration">
-            <p>En tesmoing de ce nous avons fait mettre n(ost)re seel a ces l(ett)res. Sonne en n(ost)re ville d’Arras le XXIe jour de juing l’an de grace mil quatre cens et quatre. 
-               Et estoit escript sur le ploit des dictes l(ett)res, au leir ou au bout desseux. Par ma dame la duche(sse) en son conseil, <unclear>R de noerlile</unclear>, en tesmoing de la quelle vision et lecture nous eschevins du dit maisierres, 
-               Avons a la relacion et rapport de noz dis compamgnons eschevins dudit college, scelle ce present vidimus ou transcript. Du scel et contrescel dudit escheminage fait l’an et jour dessus dis.</p>
+            <p>
+               <lb/>En tesmoing de ce nous avons fait mettre n<choice><am>&bar;</am><ex>ost</ex></choice>re seel a ces l<choice><am>&bar;</am><ex>ett</ex></choice>res. Sonne en nn<choice><am>&bar;</am><ex>ost</ex></choice>rere ville d’Arras le XXIe Jour de juing l’an de grace 
+               <lb/>mil quatre cens et quatre. Et estoit escript sur le ploit des dictes l<choice><am>&bar;</am><ex>ett</ex></choice>res, au leir ou au bout desseux. Par ma dame la duch<choice><am>&bar;</am><ex>esse</ex></choice>
+               <lb/>en son conseil, <unclear>R de noerlile</unclear>, en tesmoing de la quelle vision et lecture nous eschevins du dit maisierres, Avons a la 
+               <lb/>relacion et rapport de noz dis compamgnons eschevins dudit college, scelle ce present vidimus ou transcript. Du scel et 
+               <lb/>contrescel dudit escheminage fait l’an et jour dessus dis.</p>
          </div>
       </body>
   </text>

@@ -29,14 +29,32 @@
                   <settlement>Charleville-Mézières</settlement>
                   <repository>Archives départementales des Ardennes</repository>
                </msIdentifier>
+               <history>
+                  <provenance>Précemment conservé dans les archives communales de Mézières<stamp>VILLE DE MEZIERES<lb/>Ardennes<lb/>Archives commmunales</stamp></provenance> <acquisition>avant d'être versé aux Archives départementales des Ardennes.</acquisition>
+               </history>
                <msContents>
                   <summary>Vidimus d'un acte de Marguerite de Male, duchesse de Bourgogne et comtesse de Flandre par les échevins de Mézières, confirmant les privilèges accordés par les comtes de Rethel aux habitants et bourgeois de la ville de Mézières</summary>
                </msContents>
                <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc>
+                        <support>On single parchement leaf to which is attached a seal with the same parchment</support>
+                        <extent> Une feuille
+                           <dimensions type="leaves">
+                              <height>190mm</height>
+                              <width>350mm</width>
+                           </dimensions>
+                           <dimensions type="seal">
+                              <height>190mm</height>
+                              <width>350mm</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
                   <handDesc xml:lang="fr"><p>Ecriture manuscrite du XVème siècle</p></handDesc>
                   <sealDesc>
                      <seal n="1" type="pendant" contemporary="true">
-                        <p>Sceau des <name> échevins de Mézières</name>en cire médiévale brune portant un écu chargé des armoiries des comtes de Rethel (deux rateaux émmanchés)</p>
+                        <p>Sceau des <name> échevins de Mézières</name>en cire médiévale brune portant un écu chargé des armoiries des comtes de Rethel (<heraldry>deux rateaux émmanchés</heraldry>)</p>
                      </seal>
                      <condition>Sceau globalement en mauvais état. Des fragments sont manquants notamment la majorité de la légende. Le motif central reste en état suffisant pour être identifiable</condition>
                   </sealDesc>
@@ -47,7 +65,14 @@
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <div type="subscription">
+            <p>A tous ceulx que ces presentes lettres verront ou orront. Les eschevins de maisierres sur muese salut.</p>
+         </div>
+         <div type="corroboration">
+            <p>En tesmoing de ce nous avons fait mettre n(ost)re seel a ces l(ett)res. Sonne en n(ost)re ville d’Arras le XXIe jour de juing l’an de grace mil quatre cens et quatre. 
+               Et estoit escript sur le ploit des dictes l(ett)res, au leir ou au bout desseux. Par ma dame la duche(sse) en son conseil, <unclear>R de noerlile</unclear>, en tesmoing de la quelle vision et lecture nous eschevins du dit maisierres, 
+               Avons a la relacion et rapport de noz dis compamgnons eschevins dudit college, scelle ce present vidimus ou transcript. Du scel et contrescel dudit escheminage fait l’an et jour dessus dis.</p>
+         </div>
       </body>
   </text>
 </TEI>

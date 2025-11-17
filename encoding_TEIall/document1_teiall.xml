@@ -35,24 +35,64 @@
                <person xml:id="ech">
                   <persName>échevins de Mézières</persName>
                </person>
+               <person>
+                  <persName xml:id="ComRe">Comtes de Rethel</persName>
+                  <idno type="Wikidata">Q3279538</idno>
+               </person>
             </listPerson>
+            <listPlace>
+               <place type="city" xml:id="ChaMer">
+                  <placeName>Charleville-Mézières</placeName>
+                  <location>
+                     <geo>49.7685, 4.72487</geo>
+                  </location>
+                  <idno type="Wikidata">Q47383</idno>
+               </place>
+               <place type="city" xml:id="Ret">
+                  <placeName>Rethel</placeName>
+                  <location>
+                     <geo>49.50979, 4.3674</geo>
+                  </location>
+                  <idno>Q209790</idno>
+               </place>
+               <place type="department" xml:id="Ard">
+                  <placeName>Ardennes</placeName>
+                  <location>
+                     <geo>49.63202, 4.65369</geo>
+                  </location>
+                  <idno type="Wikidata">Q3164</idno>
+               </place>
+               <place type="city" xml:id="Arra">
+                  <placeName>Arras</placeName>
+                  <location>
+                     <geo>50.29301, 2.78186</geo>
+                  </location>
+                  <idno type="Wikidata">Q131329</idno>
+               </place>
+               <listRelation>
+                  <p>La ville de <placeName ref='#ChaMer'>Charleville-Mézières</placeName> est la résultante de la fusion des communes Charleville, Mézières, Etion, Mohon et Montcy-Saint-Pierre</p>
+               </listRelation>
+               <listRelation>
+                  <p>La ville de <placeName ref="#Ret">Rethel</placeName> et <placeName ref="#ChaMer">Charleville-Mézières</placeName> font toutes deux parties du départements des <placeName ref="#Ard">Ardennes</placeName></p>
+               </listRelation>
+            </listPlace>
             <msDesc>
                <msIdentifier>
                   <country>France</country>
-                  <settlement>Charleville-Mézières</settlement>
-                  <repository>Archives départementales des Ardennes</repository>
+                  <settlement ref="#ChaMer">Charleville-Mézières</settlement>
+                  <repository>Archives départementales des <placeName ref="#Ard">Ardennes</placeName></repository>
                </msIdentifier>
                <history>
-                  <provenance>Précemment conservé dans les archives communales de Mézières<stamp>VILLE DE MEZIERES<lb/>Ardennes<lb/>Archives commmunales</stamp></provenance> <acquisition>avant d'être versé aux Archives départementales des Ardennes.</acquisition>
+                  <provenance>Précemment conservé dans les archives communales de <placeName ref="#ChaMer">Mézières</placeName><stamp>VILLE DE MEZIERES<lb/>Ardennes<lb/>Archives commmunales</stamp></provenance> <acquisition>avant d'être versé aux Archives départementales des <placeName ref="#Ard">Ardennes</placeName>.</acquisition>
                </history>
                <msContents>
-                  <summary>Vidimus d'un acte de Marguerite de Male, duchesse de Bourgogne et comtesse de Flandre par les échevins de Mézières, confirmant les privilèges accordés par les comtes de Rethel aux habitants et bourgeois de la ville de Mézières</summary>
+                  <summary>Vidimus d'un acte de <persName ref="#mar">Marguerite de Male</persName>, par les <persName ref="#ech">échevins de Mézières</persName>, confirmant les privilèges accordés par les <persName ref="#ComRe">comtes de Rethel</persName> aux habitants et bourgeois de la ville de <placeName ref="#ChaMer">Mézières</placeName></summary>
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc>
-                        <support>On single parchement leaf to which is attached a seal with the same parchment</support>
-                        <extent> Une feuille
+                        <support>Une unique feuille de parchemin à laquelle est attaché un seau grâce à une attache du même parchemin</support>
+                        <extent>
                            <dimensions type="leaves">
                               <height>190mm</height>
                               <width>350mm</width>
@@ -67,7 +107,7 @@
                   <handDesc xml:lang="fr"><p>Ecriture manuscrite du XVème siècle</p></handDesc>
                   <sealDesc>
                      <seal n="1" type="pendant" contemporary="true">
-                        <p>Sceau des <name> échevins de Mézières</name>en cire médiévale brune portant un écu chargé des armoiries des comtes de Rethel (<heraldry>deux rateaux émmanchés</heraldry>)</p>
+                        <p>Sceau des à<persName ref="#ech">échevins de Mézières</persName> de cire médiévale brune portant un écu chargé des armoiries des <persName ref="#ComRe">comtes de Rethel</persName> composé de <heraldry>deux rateaux sans manche</heraldry>)</p>
                      </seal>
                      <condition>Sceau globalement en mauvais état. Des fragments sont manquants notamment la majorité de la légende. Le motif central reste en état suffisant pour être identifiable</condition>
                   </sealDesc>
@@ -79,15 +119,22 @@
   <text>
       <body>
          <div type="subscription">
-            <p>A tous ceulx que ces presentes lettres verront ou orront. Les eschevins de maisierres sur muese salut.</p>
+            <p>
+               A &trot;ous ceulx que ces pre&slong;entes lettres verront ou orront. Les <persName ref="#ech">e&slong;chevins de mai&slong;ierres</persName> &slong;ur mue&slong;e &slong;alut. Saichent tiut que le <date when="1408-11-13">trezieme 
+               <lb/>jour du mois de novembre l’an mil quatre cens et huit</date>, Regnandin &slong;ymonnart Wattier prendom, Jehan he&slong;&slong;oul, Amaury Boucler
+               <lb/>et Jacquemin Pen&slong;emal le Jo&slong;ue cinq de noz compamgnons <persName ref="#ech">e&slong;chevins du college de l’e&slong;cheminage du dit <placeName ref="#ChaMer">mai&slong;ierres</placeName></persName> verrent tinrent
+               <lb/>vi&slong;iterent et leurent de mot a mot. Unes lettres donneez de feue &trot;re&slong; excellente et pui&slong;&slong;ante prince&slong;&slong;e. N<choice><am>&bar;</am><ex>ost</ex></choice>re &trot;res redoubtee 
+               <lb/>dame, <persName ref="#mar">ma dame, Marguerite jadis duche&slong;&slong;e de bourg(og)ne conte&slong;&slong;e de Flandres d’Artois et de Bourgo(gn)e. Palatine dame de Salins et de 
+               <lb/>Maline</persName>.
+            </p>
          </div>
          <div type="corroboration">
             <p>
-               <lb/>En tesmoing de ce nous avons fait mettre n<choice><am>&bar;</am><ex>ost</ex></choice>re seel a ces l<choice><am>&bar;</am><ex>ett</ex></choice>res. Sonne en nn<choice><am>&bar;</am><ex>ost</ex></choice>rere ville d’Arras le XXIe Jour de juing l’an de grace 
-               <lb/>mil quatre cens et quatre. Et estoit escript sur le ploit des dictes l<choice><am>&bar;</am><ex>ett</ex></choice>res, au leir ou au bout desseux. Par ma dame la duch<choice><am>&bar;</am><ex>esse</ex></choice>
-               <lb/>en son conseil, <unclear>R de noerlile</unclear>, en tesmoing de la quelle vision et lecture nous eschevins du dit maisierres, Avons a la 
-               <lb/>relacion et rapport de noz dis compamgnons eschevins dudit college, scelle ce present vidimus ou transcript. Du scel et 
-               <lb/>contrescel dudit escheminage fait l’an et jour dessus dis.</p>
+               En te&slong;moing de ce nous avons fait mettre n<choice><am>&bar;</am><ex>ost</ex></choice>re seel a ces l<choice><am>&bar;</am><ex>ett</ex></choice>res. Sonne en n<choice><am>&bar;</am><ex>ost</ex></choice>re ville d’<placeName ref="#Arra">Arras</placeName> le XXIe Jour de juing l’an de grace 
+               <lb/><date when="1404">mil quatre cens et quatre</date>. Et e&slong;toit e&slong;cript &slong;ur le ploit des dictes l<choice><am>&bar;</am><ex>ett</ex></choice>res, au leir ou au bout de&slong;&slong;eux. Par ma dame la <persName ref="#mar">duch<choice><am>&bar;</am><ex>esse</ex></choice></persName>
+               <lb/>en &slong;on co&slong;seil, <unclear>R de noerlile</unclear>, en te&slong;moing de la quelle vi&slong;ion et lecture nous <persName ref="#ech">e&slong;chevins du dit mai&slong;ierres</persName>, Avons a la 
+               <lb/>relacion et rapport de noz dis <persName ref="#ech">compamgnons e&slong;chevins dudit college</persName>, scelle ce pre&slong;ent vidimus ou tran&slong;cript. Du scel et 
+               <lb/>contre&slong;el dudit <persName ref="#ech">e&slong;cheminage</persName> fait <date when="1408-11-13">l’an et jour de&slong;&slong;us dis</date>.</p>
          </div>
       </body>
   </text>

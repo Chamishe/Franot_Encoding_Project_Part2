@@ -1,0 +1,10 @@
+# Reflection note 
+
+The main difference between my "DTD" and my "TEI_all" is the different amount of tags. First, my metadatas are limited in my "DTD" in comparison to my "TEI_all". The description of the physical document is less precise. The differences between the physical document metadatas and the text file matadatas lessened. "TEI_all" provided my encoding a more structured and precise file. 
+
+Indeed the second solution "TEI_all" provided may be the most important. In some case I had difficulties to establish where to put informations and which informations, in order to make them easy to understand. Some informations appear in my "TEI_all" but not my "DTD", not because I dit not know how to encode them but because I did not think about them. Looking for information in the TEI guidelines provided me ideas of encoding. 
+
+Finally,  I had trouble to figure out how to highlight the importance of some element in the encoding. Thanks to the "list" tags as `listPerson`, `listPlace`. I can clearly identify the important elements to the comprehension of the text and the seal. The most revealing example are the dates. In the document 1, the confirmation of the Mezières' Chartes, the text is a vidimus, so we have two dates. The date of the first letter from the Flandres' duchess and the vidimus, when the seal was applied. Thanks to "TEI_all" the different dates are clearly identified. 
+
+First, I was not able to cleary identify the exact langage used in my manuscript. A medieval french is used but it is impacted by a regional langage that is not identified by the RFC-3066 used by the TEI.
+Then, I am not satisfied with how I identified the difference between "Mézières" and "Charleville-Mézières". "Mézières", where the text was sealed and "Charleville-Mézières", where the text is conserved, are not the exact same entity even though one is a part of the other and they are at the same localisation. I would like to highlight their "historic" difference.

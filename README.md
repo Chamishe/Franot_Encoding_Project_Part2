@@ -1,4 +1,4 @@
-# Franot_Encoding_Project_Part2
+# READ_ME
 
 In the context of the encoding project, I chose three manuscript deeds from the "Archives départementales des Ardennes" : A confirmation of the Mezieres' Charters from 1404, a sales contract from 1663 and a Charles IX letters patentes from 1540.
 

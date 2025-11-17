@@ -20,7 +20,8 @@
             <distributor>Archives départementales des Ardennes</distributor>
             <availability status="free">
                <p>Ce document est disponible à la consultation dans la salle de lecture des Archives départementales des Ardennes
-                  ou consultable en ligne sur la base de données SIGILLA</p>
+                  ou consultable en ligne sur la base de données SIGILLA
+               </p>
             </availability>
             <idno>EDEPOT/MEZIERES/AA 2</idno>
          </publicationStmt>
@@ -83,7 +84,8 @@
                   <repository>Archives départementales des <placeName ref="#Ard">Ardennes</placeName></repository>
                </msIdentifier>
                <history>
-                  <provenance>Précemment conservé dans les archives communales de <placeName ref="#ChaMer">Mézières</placeName><stamp>VILLE DE MEZIERES<lb/>Ardennes<lb/>Archives commmunales</stamp></provenance> <acquisition>avant d'être versé aux Archives départementales des <placeName ref="#Ard">Ardennes</placeName>.</acquisition>
+                  <provenance>Précedemment conservé dans les archives communales de <placeName ref="#ChaMer">Mézières</placeName><stamp>VILLE DE MEZIERES<lb/>Ardennes<lb/>Archives commmunales</stamp></provenance> 
+                  <acquisition>avant d'être versé aux Archives départementales des <placeName ref="#Ard">Ardennes</placeName>.</acquisition>
                </history>
                <msContents>
                   <summary>Vidimus d'un acte de <persName ref="#mar">Marguerite de Male</persName>, par les <persName ref="#ech">échevins de Mézières</persName>, confirmant les privilèges accordés par les <persName ref="#ComRe">comtes de Rethel</persName> aux habitants et bourgeois de la ville de <placeName ref="#ChaMer">Mézières</placeName></summary>
@@ -91,7 +93,7 @@
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc>
-                        <support>Une unique feuille de parchemin à laquelle est attaché un seau grâce à une attache du même parchemin</support>
+                        <support>Une unique feuille de parchemin à laquelle est attaché un seau grâce à une attache faite du même parchemin</support>
                         <extent>
                            <dimensions type="leaves">
                               <height>190mm</height>
@@ -107,7 +109,7 @@
                   <handDesc xml:lang="fr"><p>Ecriture manuscrite du XVème siècle</p></handDesc>
                   <sealDesc>
                      <seal n="1" type="pendant" contemporary="true">
-                        <p>Sceau des à<persName ref="#ech">échevins de Mézières</persName> de cire médiévale brune portant un écu chargé des armoiries des <persName ref="#ComRe">comtes de Rethel</persName> composé de <heraldry>deux rateaux sans manche</heraldry>)</p>
+                        <p>Sceau des <persName ref="#ech">échevins de Mézières</persName> de cire médiévale brune portant un écu chargé des armoiries des <persName ref="#ComRe">comtes de Rethel</persName> composé de <heraldry>deux rateaux sans manche</heraldry>)</p>
                      </seal>
                      <condition>Sceau globalement en mauvais état. Des fragments sont manquants notamment la majorité de la légende. Le motif central reste en état suffisant pour être identifiable</condition>
                   </sealDesc>
